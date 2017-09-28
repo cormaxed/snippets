@@ -13,6 +13,6 @@ J
 set fileencodings=latin1
 
 ## Working With Tabs
-Cnt-Opt T 	- New Tab
-gt 		      - Next Tab
-gT 		      - Previous Tab
+* Cnt-Opt T 	- New Tab
+* gt 		      - Next Tab
+* gT 		      - Previous Tab
