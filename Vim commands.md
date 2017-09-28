@@ -14,5 +14,5 @@ set fileencodings=latin1
 
 ## Working With Tabs
 Cnt-Opt T 	- New Tab
-gt 		- Next Tab
-gT 		- Previous Tab
+gt 		      - Next Tab
+gT 		      - Previous Tab
