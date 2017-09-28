@@ -3,13 +3,13 @@
 ## Change everything between the quotes
 ci "
 
-## Bring in Data From an external command**
+## Bring in Data From an external command
 :r !hostname
 
 ## Join lines
 J
 
-## Change File Encoding**
+## Change File Encoding
 set fileencodings=latin1
 
 ## Working With Tabs
