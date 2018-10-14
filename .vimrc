@@ -16,17 +16,21 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'thinca/vim-quickrun'
 Plug 'vim-scripts/Conque-Shell'
 Plug 'jvirtanen/vim-octave.git'
+Plug 'diepm/vim-rest-console'
 call plug#end()
 
 " Keymaps
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <F9> :QuickRun<cr>
 
-"Better window navigation
+" Better window navigation
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+" Alias for commands
+com! FormatJSON %!python -m json.tool
 
 " Better Whitespace settings
 let g:better_whitespace_enabled=1
