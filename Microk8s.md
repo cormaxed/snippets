@@ -10,7 +10,7 @@ sudo snap alias microk8s.kubectl kubectl
 ## Enable Extensions
 
 ```
-microk8s.enable dns dashboard ingress
+microk8s.enable dns dashboard ingress registry
 ```
 
 ## Create A Hello World Service
